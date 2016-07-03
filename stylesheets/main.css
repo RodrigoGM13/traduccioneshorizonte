@@ -1,0 +1,280 @@
+body {
+	font-size: 16px;
+	background-color: #eee;
+	color: #111;
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden; 
+}
+@media only screen and (max-width: 768px){
+	body {
+		font-size: 14px;
+	}
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+::-webkit-scrollbar-track {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+	   width: 12px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa;
+}
+
+h2 {
+	font-family: "Lato", "sans serif";
+	font-size: 2.618em;
+	letter-spacing: .3em;
+	font-weight: 100;
+	text-align: center;
+	color: #eee;
+	margin: 80px 0 20px;
+}
+h3 {
+	font-family: "Lato", "sans serif";
+	font-size: 1.618em;
+	color: #111;
+	font-weight: 300;
+	letter-spacing: .1em;
+}
+h4 {
+	font-family: "Lato", "sans serif";
+	font-size: 1em;
+	color: #eee;
+	font-weight: 300;
+	letter-spacing: .2em;
+	text-align: center;
+	margin: 2em; 
+}
+.main-header {
+	background-color: transparent; 
+	display: block;
+	position: fixed;
+	z-index: 5;
+	width:100%;
+	width: 100%;
+	height: auto; 
+	color: #eee; 
+	font-family: "Lato", "sans serif";
+	font-weight: 100;
+	transition: all 0.4s ease-in-out;
+}
+.main-header img {
+	float: left;
+	width: 3em; 
+	height: auto;
+	margin: 5px 0 5px 5px;
+	transition: all 0.4s ease-in-out;
+}
+.main-header ul {
+	float: right; 
+	font-size: 1em;
+	
+	letter-spacing: .6em;
+	border-radius: 5px; 
+	transition: all 0.4s ease-in-out;
+	display: flex;
+	list-style-type: none;
+	flex-wrap: wrap; 
+	padding: 0;
+	margin-top: 5px;
+}
+.main-header li {
+	margin: 5px .33em 0;
+	padding: 5px 1em;
+}
+.main-header li:hover, .main-header img:hover {
+	cursor:pointer;
+}
+.main-header li:hover {
+	text-decoration-line: underline; 
+}
+
+.past-main {
+	color: #eee;
+	background-color: rgba(2,34,56,0.8);
+}
+.past-main img {
+
+}
+.hero {
+	width: 100%;
+	height: 100vh;
+}
+
+.main-page{
+	background-image: URL("../images/horizon-1083742_960_720.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.main-page-filter {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(13,73,112,0.7);
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+}
+.main-page-filter img {
+	width: 30%;
+	min-width: 450px;
+	height: auto;
+	margin-bottom: 5%;
+	
+
+}
+.flecha-abajo {
+	position: absolute;
+	bottom: 10px; 
+	width: 100%;
+	display: flex; 
+	justify-content: center;
+}
+.flecha-abajo i {
+	 margin: 0 auto; 
+	color: #eee;
+	font-size: 2em; 
+}
+.icon-page {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	z-index: 2;
+	
+}
+.how-we-work {
+	background-color: rgba(13,73,112,1);
+	height: auto; 
+	min-height: 100vh;
+	z-index: 2;
+	box-shadow: 0 -3px 6px rgba(0,0,0,0.16), 0 -3px 6px rgba(0,0,0,0.23);
+}
+.servicios-row {
+	height: 70%;
+}
+.icono {
+	text-align: center;
+	height: 300px;
+	margin-bottom: 30px;
+	background-color: #87a8bf; 
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	padding: .33em; 
+	
+}
+.icono i {
+	font-size: 4em; 
+}
+.icono p {
+	margin: 10px 5px; 
+}
+.servicios-card-title {
+	height: 30%; 
+	width: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center; 
+}
+.portfolio-page{
+	background-image: URL("../images/cielo.jpg");
+	background-size: cover;
+	background-position:center bottom;
+	background-attachment: fixed;
+	
+	height: 100vh;
+	width: 100%
+}
+.portfolio-filter {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,124,205,0.2);
+	display: flex;
+	align-items: center;
+}
+.portfolio-card{
+	height: 200px;
+	color: #eee;
+}
+.portfolio-card-content {
+	background-color: rgba(0,124,205,0);
+	height: 100%;
+	border: 1px solid white;
+	padding: 5px; 
+}
+h1 {
+	font-size: 4.236em;	
+	letter-spacing: .3em;
+	font-weight: 100;
+	font-family: "Lato", "sans serif";
+	text-align: center;
+	color: #eee;
+}
+
+.contact-page{
+	background-color:#64859b;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23), 0 -3px 6px rgba(0,0,0,0.16), 0 -3px 6px rgba(0,0,0,0.23);
+	padding-top: 5%;
+}
+.contact-page h4{
+	text-align: left;
+	color: #111;
+	margin: 0; 
+}
+.contact-page p {
+	margin: 10px;
+}
+.cita {
+	text-align: left; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 1em; 
+	padding-top: 10%;
+	height: 100%; 
+}
+.cita q {
+	font-size: 2.618em;
+	font-family: "Lato", "Sans serif";
+	font-weight: 200; 
+}
+footer {
+	background-color:#022238;
+	width: 100%;
+	height: 300px; 
+	min-height: 300px;
+}
+
+.footer-blog {
+	background-color: #cce;
+	height: 300px;
+}
+.owl-nav {
+	display: flex; 
+	justify-content: center; 
+	color: #eee;
+	margin: 1em; 
+}
+.owl-prev {
+	margin-right: .5em; 
+}
+
+.owl-next {
+	margin-left: .5em; 
+}
+.owl-dots {
+	display: flex; 
+	justify-content: center; 
+}
+.owl-dot {
+	background-color: #eee; 
+	width: 10px;
+	height: 10px; 
+	border-radius: 100%;
+	margin: 0 .3em;
+}
+.owl-dots .active {
+	background-color: #aaa;
+	transition: all 0.4s ease-in-out;
+}
